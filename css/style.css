@@ -1,0 +1,111 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.body{
+    display: flex;
+    height: 100vh;
+}
+.leftside{
+    width: 50%;
+    background: rgba(0,0,0,0.2) url(../img/img1.jpg);
+    background-size : cover;
+    background-blend-mode: darken;
+    color: white;
+
+}
+.rightside{
+    border-left: 6px solid gray;
+    height: 100%;
+    width: 50%;
+    background: url(../img/img6.jfif);
+    color: white;
+}
+.welcome{
+    padding: 130px 130px;
+}
+.heading{
+    font-size: 35px;
+    padding: 0px 11px;
+    color: gray;
+}
+.matter{
+    padding: 37px 15px;
+    font-size: 24px;
+}
+.btn-big{
+    font-size: 17px;
+    height: 43px;
+    margin: 0px 13px;
+    padding: 11px 14px;
+    background: none;
+    color: white;
+    border: 2px solid white;
+}
+.btn-big:hover{
+    font-size: 17px;
+    height: 43px;
+    margin: 0px 13px;
+    padding: 11px 14px;
+    background: none;
+    color: gray;
+    border: 2px solid gray;
+}
+.signup{
+    font-size: 50px;
+    margin: 7px;
+    padding: 0px 147px;
+}
+.sign{
+    text-align: center;
+    padding: 7px;
+    font-size: 38px;
+    color: gray;
+}
+.name,.phone,.mail,.password,.cpassword,.promo{
+    font-size: 15px;
+    border-radius: 9px;
+    height: 36px;
+    width: 114%;
+}
+.lastline{
+    font-size: 20px;
+    padding: 15px;
+    margin: 0px 10px;
+}
+.btn-sign{
+    width: 158px;
+    padding: 17px 0px;
+    margin: 6px 121px;
+    border-radius: 28%;
+    background-color: black;
+    color: white;
+    border: 2px solid white
+}
+.btn-sign:hover{
+    width: 158px;
+    padding: 17px 0px;
+    margin: 6px 121px;
+    border-radius: 28%;
+    background-color: none;
+    color: gray;
+    border: 2px solid gray;
+}
+.fa {
+    padding: 5px;
+    margin: 21px 0px;
+    width: 48px;
+    text-align: center;
+    text-decoration: none;
+  }
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }  
+  .href{
+      color:red;
+  }
